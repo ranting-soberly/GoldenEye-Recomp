@@ -58,7 +58,7 @@ Per platform:
   is compiled with `llvm-rc`, since MSVC's `rc.exe` may not be on PATH), plus
   Visual Studio or the Build Tools for the Windows SDK headers and libraries
   that clang links against.
-* **Linux** -- install clang 22 and the X11 and GTK 3 development packages.
+* **Linux** -- install clang and the X11 and GTK 3 development packages.
   The Linux input path in `src/ge_hooks.cpp` drives mouse-look through Xlib,
   and the SDK's window is GTK with the GDK backend pinned to x11.
 
